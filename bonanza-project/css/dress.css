@@ -1,0 +1,50 @@
+.product-img-dis {
+  display: flex;
+  flex-direction: column;
+}
+.main-dress-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-img {
+  display: flex;
+}
+
+.img-gallery {
+  display: flex;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.thumb {
+  display: flex;
+  flex-direction: column;
+}
+
+ul.thumb {
+  margin: 0 auto;
+  padding: 0;
+  float: left;
+}
+
+ul.thumb li {
+  list-style: none;
+  margin: 5px;
+  width: 150px;
+  height: 200px;
+  
+  overflow: hidden;
+} 
+
+.imgBox {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.img-size {
+  width: 500px;
+}

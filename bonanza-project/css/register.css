@@ -1,0 +1,22 @@
+.Registering-detail {
+  display: flex;
+  margin-top: 10px;
+}
+
+.order-text, .information-text {
+  display: block;
+}
+
+.egistering-text, .order-text, .up-for-text, .information-text, .faster-text {
+  color: #000000;;
+}
+
+.create-account-div {
+  display: flex;
+  margin-top: 20px;
+  align-items: start;
+}
+
+.button-create-account {
+  width: 200px;
+}

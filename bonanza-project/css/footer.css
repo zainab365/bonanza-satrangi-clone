@@ -1,0 +1,99 @@
+.footer {
+  display: flex;
+  flex: 1;
+  margin-top: 60px;
+  background-color: #F0F3F3;
+  border-style: solid;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 1px;
+  justify-content: space-evenly;
+}
+
+.div1 {
+  margin-right: 200px;
+}
+
+.div2 {
+  margin-right: 200px;
+}
+
+.above-foot {
+  display: flex;
+  gap: 90px;
+  flex-direction: row;
+}
+
+.foot {
+  display: flex;
+  gap: 90px;
+  flex-direction: column;
+  
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.footer-col-inner1, .Phone, .Email, .Customer, .Monday, .store, .terms, .refund, .shipping {
+  display: block;
+  line-height: 2;
+}
+
+
+
+.Monday {
+  line-height: 1;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.fb {
+  display: flex;
+  margin-left: 5px;
+}
+
+.fa-square-instagram {
+  margin-left: 20px;
+}
+
+.insta {
+  margin-left: 5px;
+}
+
+.fa-youtube {
+  margin-left: 20px;
+}
+
+.youtube {
+  margin-left: 5px;
+}
+
+a {
+  color: black;
+}
+
+.line {
+display: flex;
+ flex-direction: column;
+}
+
+.line1 {
+  display: flex;
+  flex: 1;
+  border-style: solid;
+  width: 100%;
+  
+}
+
+hr {
+  border: none;
+  border-top: 1.6px dotted black;
+ 
+}

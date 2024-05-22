@@ -1,0 +1,122 @@
+.right-div-dis {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  left: 700px;
+  width: 600px;
+
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.BURN-brick {
+  display: flex;
+}
+
+
+
+.product-name {
+  display: block;
+  margin-bottom: 10px; 
+  font-size: 25px;
+  font-weight: 500;
+  color: #111111 ;
+}
+
+.product-price {
+  display: block;
+  font-size: 25px;
+  font-weight: 500;
+  color: #111111 ;
+}
+
+.product-tax {
+  display: block;
+  margin-bottom: 20px; 
+  color: #6C6C6C;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.product-stock {
+  display: block;
+  margin-bottom: 10px; 
+  color: #7ABF22;
+  font-size: 20px;
+}
+
+.product-color {
+  display: block;
+  margin-bottom: 30px;  
+  color: #3B3B3B;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.product-color-maroon {
+  color:#6C6C6C;
+  font-size: 15px;
+}
+
+.product-code{
+  display: block;
+  margin-bottom: 5px; 
+  color: #3B3B3B;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.product-code-part {
+  color:#6C6C6C;
+  font-size: 15px;
+}
+
+.product-sku {
+  color: #3B3B3B;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.product-sku-part {
+  color:#6C6C6C;
+  font-size: 15px;
+}
+
+.icon-div {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+.heart-icon {
+  display: flex;
+  align-items: center;
+  
+}
+
+.same-line {
+  display: flex;
+  align-items: center;
+  color: #B1B1B1;
+}
+
+.heart-icon-img {
+  width: 20px;
+}
+
+.add-to-wishlist {
+margin-left: 10px;
+font-size: 12px;
+}
+
+.plane-icon-img {
+  width: 15px;
+}
+
+.enq-icon-img {
+  width: 20px;
+}

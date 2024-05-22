@@ -1,0 +1,73 @@
+.login-div, .register-div {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DDDDDD;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px;
+}
+
+.login, .new-customer-text {
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 500;
+}
+
+.detail-text {
+  display: flex;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.email-input, .password-input {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  width: 350px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DDDDDD;
+  color: #BBBBBB;
+  font-size: 15px;
+}
+
+.button-forgot-div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.button-sign-in, .button-create-account {
+  background-color: #36454F;
+  color: #F2FFE3;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+}
+
+.button-sign-in:hover {
+cursor: pointer;
+}
+
+.forgot-password {
+  font-size: 17px;
+  color: #444444;
+}
+
+.forgot-password-text:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+

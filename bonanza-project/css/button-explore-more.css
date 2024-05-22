@@ -1,0 +1,18 @@
+.button-div {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
+.button-explore-more {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-style: solid;
+  background-color: #FDE2E2;
+  font-size: 15px;
+}
+
+.button-explore-more:hover {
+  cursor: pointer;
+}

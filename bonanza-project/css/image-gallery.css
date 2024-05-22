@@ -1,0 +1,87 @@
+.image-gallery-div {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  margin: 10px;
+}
+
+.images-left-gallery {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  
+  gap: 20px;
+}
+
+.l-img1, .l-img2, .m-img1, .r-img1, .r-img2 {
+  display: flex;
+  width: 518px;
+}
+
+.m-img1 {
+  height: 680px;
+}
+
+.r-img1 {
+  height: 350px;
+  width: 480px
+}
+
+.r-img2 {
+  height: 305px;
+  width: 480px
+}
+
+.left-img1, .left-img2, .midd-img, .right-img1, .right-img2 {
+  position: relative;
+}
+
+.butn1, .butn2, .butn3, .butn4, .butn5 {
+display: flex;
+position: absolute;
+bottom: 80px;
+padding: 15px;
+padding-left: 25px;
+padding-right: 25px;
+text-transform: uppercase;
+left: 180px;
+border: none;
+background-color: #FFFFFF;
+}
+
+.butn2 {
+padding-left: 35px;
+padding-right: 35px;
+}
+
+.butn3 {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.butn4 {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.butn5 {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.mid-img-gallery {
+  display: flex;
+  flex: 1; 
+}
+
+.butn1, .butn2, .butn3, .butn4, .butn5:hover {
+  cursor: pointer;
+}
+
+.images-right-gallery {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  flex-direction: column;
+}
+

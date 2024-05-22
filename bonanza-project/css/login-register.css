@@ -1,0 +1,27 @@
+.account {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.my-account-text-div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.my-account {
+  display: flex;
+  font-size: 23px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.login-register-div {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  justify-content: center;
+}

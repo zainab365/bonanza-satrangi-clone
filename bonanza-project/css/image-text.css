@@ -1,0 +1,67 @@
+.image-text-div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 150px;
+  
+}
+
+.img-div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.img-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  background-color: #FCDCDC;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  flex: 1;
+  width: 600px;
+}
+
+.beaty-frag-title {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.beaty-frag-para-text {
+display: flex;
+text-align: center;
+font-size: 16px;
+}
+
+.beaty-frag-para-div {
+  display: flex;
+  width: 500px;
+}
+
+.beaty-frag-para-span {
+  display: block;
+}
+
+.beaty-frag-button-div {
+  display: flex;
+}
+
+.beaty-frag-button {
+  display: flex;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  padding: 7px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 505;
+}

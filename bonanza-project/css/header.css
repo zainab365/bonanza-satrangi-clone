@@ -1,0 +1,131 @@
+.header1 {
+  display: flex;
+  flex: 1;
+  background-color: #FCDCDC;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.fix-head {
+  margin-bottom: 12px;
+}
+
+.header-title1 {
+padding-left: 200px;
+}
+
+.header-title1, .header-title2 {
+  font-size: 12px;
+}
+
+.header-title2 {
+  padding-right: 200px;
+}
+
+.icon {
+  padding-right: 5px;
+  font-size: 10px;
+}
+
+.logo-menu-div {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  display: flex;
+  max-width: 250px; 
+  max-height: 100px;
+  padding-left: 670px;
+}
+
+.menu-icon {
+  display: flex;
+  gap: 20px;
+  margin-right: 40px;
+  position: relative;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+.fa-truck, .fa-magnifying-glass, .fa-user, .fa-heart, .fa-cart-shopping {
+  display: flex;
+  padding-top: 50px;
+}
+
+.cart-item-num {
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-bottom: 100px;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 50px;
+  position: absolute;
+  top: 25px;
+  left: 155px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+
+}
+
+.menu-style {
+  font-size: 13px;
+}
+
+.new {
+  position: relative;
+}
+
+.new1 {
+  position: absolute;
+  font-size: 11px;
+  bottom: 19px;
+  left: 113px;
+  animation: blinker 1s linear infinite;
+  color: #FF3839;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.summer-collection-menu {
+  color: black;
+  font-weight: 550;
+}
+
+.summer-collection-menu:hover {
+  color: #4290AA;
+}
+
+.new-arrival-menu {
+  color: #6FB155;
+}
+
+.ready-un-lu-com-fra-men-menu {
+  color: #424542;
+}
+
+.sale-menu {
+  color: #FF3839;
+}

@@ -1,0 +1,32 @@
+.menu2 {
+  display: flex;
+  background-color: #F9F9F9;
+  border-style: solid;
+  border-left: 0;
+  border-right: 0;
+ border-bottom: 0;
+ border-width: 1px;
+ 
+}
+
+.menu-lower {
+  display: flex;
+  font-size: 15px;
+}
+
+.home {
+  color: black;
+}
+
+.home:hover {
+  color: grey;
+}
+
+
+
+.line {
+  border-left: 2px solid black;
+  margin-left: 30px;
+  height: 20px;
+  margin-top: 15px;
+}
